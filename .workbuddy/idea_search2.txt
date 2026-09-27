@@ -1,0 +1,9 @@
+﻿C:\Program Files
+C:\Program Files (x86)
+D:\devecostudio
+D:\Edrawsoft
+D:\idea
+D:\Jetbrains全家桶授权
+D:\Program Files
+D:\ProgramData
+D:\idea\IntelliJ IDEA 2026.2.3\bin\idea64.exe

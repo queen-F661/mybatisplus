@@ -1,0 +1,10 @@
+﻿pip.exe : 
+所在位置 行:445 字符: 137
++ ... s\default"; & "C:\Users\zhy\.workbuddy\binaries\python\envs\default\S ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: C:\Users\zhy\.workbuddy\binaries\python\envs\default\S
+cripts\python.exe -m pip install --upgrade pip

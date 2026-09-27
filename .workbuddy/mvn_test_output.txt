@@ -1,0 +1,1088 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:mybatisplus >-----------------------
+[INFO] Building mybatisplus 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ mybatisplus ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.5.0/maven-filtering-3.5.0.jar
+Progress (1): 0.9/61 kB
+Progress (1): 2.3/61 kB
+Progress (1): 3.6/61 kB
+Progress (1): 5.0/61 kB
+Progress (1): 6.4/61 kB
+Progress (1): 7.7/61 kB
+Progress (1): 9.1/61 kB
+Progress (1): 10/61 kB 
+Progress (1): 11/61 kB
+Progress (1): 13/61 kB
+Progress (1): 14/61 kB
+Progress (1): 15/61 kB
+Progress (1): 17/61 kB
+Progress (1): 18/61 kB
+Progress (1): 20/61 kB
+Progress (1): 21/61 kB
+Progress (1): 22/61 kB
+Progress (1): 24/61 kB
+Progress (1): 25/61 kB
+Progress (1): 26/61 kB
+Progress (1): 28/61 kB
+Progress (1): 29/61 kB
+Progress (1): 31/61 kB
+Progress (1): 32/61 kB
+Progress (1): 33/61 kB
+Progress (1): 35/61 kB
+Progress (1): 36/61 kB
+Progress (1): 37/61 kB
+Progress (1): 39/61 kB
+Progress (1): 40/61 kB
+Progress (1): 41/61 kB
+Progress (1): 43/61 kB
+Progress (1): 44/61 kB
+Progress (1): 46/61 kB
+Progress (1): 47/61 kB
+Progress (1): 48/61 kB
+Progress (1): 50/61 kB
+Progress (1): 51/61 kB
+Progress (1): 52/61 kB
+Progress (1): 54/61 kB
+Progress (1): 55/61 kB
+Progress (1): 59/61 kB
+Progress (1): 61 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.5.0/maven-filtering-3.5.0.jar (61 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-build-api/1.2.0/plexus-build-api-1.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M4/org.eclipse.sisu.plexus-0.9.0.M4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.6.0/plexus-utils-3.6.0.jar
+Progress (1): 3.2/216 kB
+Progress (1): 7.4/216 kB
+Progress (1): 12/216 kB 
+Progress (1): 16/216 kB
+Progress (1): 20/216 kB
+Progress (1): 24/216 kB
+Progress (1): 29/216 kB
+Progress (1): 33/216 kB
+Progress (1): 37/216 kB
+Progress (2): 37/216 kB | 0.9/88 kB
+Progress (2): 37/216 kB | 2.3/88 kB
+Progress (2): 37/216 kB | 3.6/88 kB
+Progress (2): 37/216 kB | 5.0/88 kB
+Progress (2): 37/216 kB | 6.4/88 kB
+Progress (2): 37/216 kB | 7.7/88 kB
+Progress (2): 37/216 kB | 9.1/88 kB
+Progress (2): 37/216 kB | 10/88 kB 
+Progress (2): 37/216 kB | 11/88 kB
+Progress (2): 37/216 kB | 13/88 kB
+Progress (2): 37/216 kB | 14/88 kB
+Progress (2): 37/216 kB | 15/88 kB
+Progress (2): 37/216 kB | 17/88 kB
+Progress (2): 37/216 kB | 18/88 kB
+Progress (2): 37/216 kB | 20/88 kB
+Progress (2): 37/216 kB | 21/88 kB
+Progress (2): 37/216 kB | 22/88 kB
+Progress (2): 37/216 kB | 24/88 kB
+Progress (2): 37/216 kB | 25/88 kB
+Progress (2): 37/216 kB | 26/88 kB
+Progress (3): 37/216 kB | 26/88 kB | 0.9/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 2.3/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 3.2/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 4.5/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 5.9/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 7.3/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 8.7/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 10/272 kB 
+Progress (3): 37/216 kB | 26/88 kB | 11/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 13/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 14/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 15/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 17/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 18/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 20/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 21/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 22/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 24/272 kB
+Progress (3): 37/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 41/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 45/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 50/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 54/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 58/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 61/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 65/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 69/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 73/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 77/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 82/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 86/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 26/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 28/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 29/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 31/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 32/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 33/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 35/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 36/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 37/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 39/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 40/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 41/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 43/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 44/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 46/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 47/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 48/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 50/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 51/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 52/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 54/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 55/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 25/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 26/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 28/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 29/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 30/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 32/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 33/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 35/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 36/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 37/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 39/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 40/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 41/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 43/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 44/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 46/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 47/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 48/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 49/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 51/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 52/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 53/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 55/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 59/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 63/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 67/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 72/272 kB
+Progress (3): 90/216 kB | 59/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 64/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 68/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 72/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 76/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 81/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 85/88 kB | 76/272 kB
+Progress (3): 90/216 kB | 88 kB | 76/272 kB   
+Progress (3): 90/216 kB | 88 kB | 80/272 kB
+Progress (3): 90/216 kB | 88 kB | 84/272 kB
+Progress (3): 90/216 kB | 88 kB | 89/272 kB
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar (88 kB at 56 kB/s)
+Progress (2): 94/216 kB | 89/272 kB
+Progress (2): 99/216 kB | 89/272 kB
+Progress (2): 103/216 kB | 89/272 kB
+Progress (2): 107/216 kB | 89/272 kB
+Progress (2): 111/216 kB | 89/272 kB
+Progress (2): 115/216 kB | 89/272 kB
+Progress (2): 120/216 kB | 89/272 kB
+Progress (2): 124/216 kB | 89/272 kB
+Progress (2): 126/216 kB | 89/272 kB
+Progress (2): 130/216 kB | 89/272 kB
+Progress (2): 135/216 kB | 89/272 kB
+Progress (2): 139/216 kB | 89/272 kB
+Progress (2): 143/216 kB | 89/272 kB
+Progress (2): 147/216 kB | 89/272 kB
+Progress (2): 151/216 kB | 89/272 kB
+Progress (2): 156/216 kB | 89/272 kB
+Progress (2): 172/216 kB | 89/272 kB
+Progress (2): 188/216 kB | 89/272 kB
+Progress (2): 205/216 kB | 89/272 kB
+Progress (2): 216 kB | 89/272 kB    
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M4/org.eclipse.sisu.plexus-0.9.0.M4.jar (216 kB at 117 kB/s)
+Progress (2): 89/272 kB | 0.9/6.6 kB
+Progress (2): 89/272 kB | 2.3/6.6 kB
+Progress (2): 89/272 kB | 3.2/6.6 kB
+Progress (2): 89/272 kB | 4.5/6.6 kB
+Progress (2): 89/272 kB | 5.9/6.6 kB
+Progress (2): 89/272 kB | 6.6 kB    
+Progress (2): 93/272 kB | 6.6 kB
+Progress (2): 93/272 kB | 6.6 kB
+Progress (2): 98/272 kB | 6.6 kB
+Progress (2): 102/272 kB | 6.6 kB
+Progress (2): 106/272 kB | 6.6 kB
+Progress (2): 110/272 kB | 6.6 kB
+Progress (2): 114/272 kB | 6.6 kB
+Progress (2): 119/272 kB | 6.6 kB
+Progress (2): 123/272 kB | 6.6 kB
+Progress (2): 126/272 kB | 6.6 kB
+Progress (2): 130/272 kB | 6.6 kB
+Progress (2): 135/272 kB | 6.6 kB
+Progress (2): 139/272 kB | 6.6 kB
+Progress (2): 143/272 kB | 6.6 kB
+Progress (2): 147/272 kB | 6.6 kB
+Progress (2): 151/272 kB | 6.6 kB
+Progress (2): 156/272 kB | 6.6 kB
+Progress (2): 160/272 kB | 6.6 kB
+Progress (2): 164/272 kB | 6.6 kB
+Progress (2): 168/272 kB | 6.6 kB
+Progress (2): 173/272 kB | 6.6 kB
+Progress (2): 177/272 kB | 6.6 kB
+Progress (2): 181/272 kB | 6.6 kB
+Progress (2): 185/272 kB | 6.6 kB
+Progress (2): 189/272 kB | 6.6 kB
+Progress (2): 194/272 kB | 6.6 kB
+Progress (2): 198/272 kB | 6.6 kB
+Progress (2): 202/272 kB | 6.6 kB
+Progress (2): 206/272 kB | 6.6 kB
+Progress (2): 211/272 kB | 6.6 kB
+Progress (2): 215/272 kB | 6.6 kB
+Progress (2): 219/272 kB | 6.6 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-build-api/1.2.0/plexus-build-api-1.2.0.jar (6.6 kB at 2.8 kB/s)
+Progress (1): 235/272 kB
+Progress (1): 252/272 kB
+Progress (1): 257/272 kB
+Progress (1): 272 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.6.0/plexus-utils-3.6.0.jar (272 kB at 91 kB/s)
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ mybatisplus ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar
+Progress (1): 3.2/126 kB
+Progress (1): 20/126 kB 
+Progress (1): 28/126 kB
+Progress (1): 44/126 kB
+Progress (1): 61/126 kB
+Progress (1): 77/126 kB
+Progress (1): 93/126 kB
+Progress (1): 110/126 kB
+Progress (1): 126/126 kB
+Progress (1): 126 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar (126 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar
+Progress (1): 7.7/151 kB
+Progress (1): 11/151 kB 
+Progress (2): 11/151 kB | 0.9/353 kB
+Progress (2): 11/151 kB | 2.3/353 kB
+Progress (2): 11/151 kB | 3.2/353 kB
+Progress (2): 11/151 kB | 4.5/353 kB
+Progress (2): 11/151 kB | 5.9/353 kB
+Progress (2): 11/151 kB | 7.3/353 kB
+Progress (2): 11/151 kB | 8.6/353 kB
+Progress (2): 11/151 kB | 10/353 kB 
+Progress (2): 11/151 kB | 11/353 kB
+Progress (2): 11/151 kB | 13/353 kB
+Progress (2): 11/151 kB | 14/353 kB
+Progress (2): 11/151 kB | 15/353 kB
+Progress (2): 11/151 kB | 17/353 kB
+Progress (2): 11/151 kB | 18/353 kB
+Progress (2): 11/151 kB | 20/353 kB
+Progress (2): 11/151 kB | 21/353 kB
+Progress (2): 11/151 kB | 22/353 kB
+Progress (2): 11/151 kB | 24/353 kB
+Progress (2): 11/151 kB | 25/353 kB
+Progress (2): 11/151 kB | 26/353 kB
+Progress (2): 11/151 kB | 28/353 kB
+Progress (2): 11/151 kB | 29/353 kB
+Progress (3): 11/151 kB | 29/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 31/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 32/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 33/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 35/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 36/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 37/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 39/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 40/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 41/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 43/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 44/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 46/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 47/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 51/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 55/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 60/353 kB | 3.2/57 kB
+Progress (3): 11/151 kB | 60/353 kB | 7.4/57 kB
+Progress (3): 11/151 kB | 60/353 kB | 12/57 kB 
+Progress (3): 11/151 kB | 60/353 kB | 16/57 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 0.9/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 2.3/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 3.2/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 4.5/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 5.9/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 7.3/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 8.7/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 10/29 kB 
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 11/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 13/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 14/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 16/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 20/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 24/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 29/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 33/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 37/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 41/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 45/57 kB | 15/29 kB
+Progress (4): 11/151 kB | 60/353 kB | 50/57 kB | 15/29 kB
+Progress (5): 11/151 kB | 60/353 kB | 50/57 kB | 15/29 kB | 7.7/327 kB
+Progress (5): 11/151 kB | 60/353 kB | 50/57 kB | 15/29 kB | 15/327 kB 
+Progress (5): 11/151 kB | 60/353 kB | 54/57 kB | 15/29 kB | 15/327 kB
+Progress (5): 11/151 kB | 60/353 kB | 57 kB | 15/29 kB | 15/327 kB   
+Progress (5): 11/151 kB | 60/353 kB | 57 kB | 15/29 kB | 32/327 kB
+Progress (5): 11/151 kB | 60/353 kB | 57 kB | 15/29 kB | 48/327 kB
+Progress (5): 11/151 kB | 60/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 11/151 kB | 64/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 11/151 kB | 68/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 11/151 kB | 72/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 11/151 kB | 77/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 11/151 kB | 81/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 28/151 kB | 81/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 81/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 85/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 89/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 93/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 98/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 102/353 kB | 57 kB | 15/29 kB | 65/327 kB
+Progress (5): 44/151 kB | 102/353 kB | 57 kB | 15/29 kB | 81/327 kB
+Progress (5): 44/151 kB | 102/353 kB | 57 kB | 15/29 kB | 97/327 kB
+Progress (5): 44/151 kB | 102/353 kB | 57 kB | 15/29 kB | 114/327 kB
+Progress (5): 44/151 kB | 102/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 106/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 110/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 115/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 119/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 123/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 127/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 132/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 44/151 kB | 134/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 61/151 kB | 134/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 15/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 17/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 18/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 20/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 21/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 22/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 24/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 25/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 26/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 28/29 kB | 130/327 kB
+Progress (5): 77/151 kB | 134/353 kB | 57 kB | 29 kB | 130/327 kB   
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.5.2/plexus-java-1.5.2.jar (57 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar
+Progress (4): 77/151 kB | 134/353 kB | 29 kB | 147/327 kB
+Progress (4): 93/151 kB | 134/353 kB | 29 kB | 147/327 kB
+Progress (4): 110/151 kB | 134/353 kB | 29 kB | 147/327 kB
+Progress (4): 126/151 kB | 134/353 kB | 29 kB | 147/327 kB
+Progress (4): 142/151 kB | 134/353 kB | 29 kB | 147/327 kB
+Progress (4): 142/151 kB | 134/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 134/353 kB | 29 kB | 163/327 kB    
+Progress (4): 151 kB | 138/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 143/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 147/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 151/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 155/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 160/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 164/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 168/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 172/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 177/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 181/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 185/353 kB | 29 kB | 163/327 kB
+Progress (4): 151 kB | 189/353 kB | 29 kB | 163/327 kB
+Progress (5): 151 kB | 189/353 kB | 29 kB | 163/327 kB | 0.9/5.2 kB
+Progress (5): 151 kB | 189/353 kB | 29 kB | 163/327 kB | 2.3/5.2 kB
+Progress (5): 151 kB | 189/353 kB | 29 kB | 163/327 kB | 3.6/5.2 kB
+Progress (5): 151 kB | 189/353 kB | 29 kB | 163/327 kB | 5.0/5.2 kB
+Progress (5): 151 kB | 189/353 kB | 29 kB | 163/327 kB | 5.2 kB    
+                                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.16.2/plexus-compiler-api-2.16.2.jar (29 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar
+Progress (4): 151 kB | 193/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 198/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 202/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 206/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 210/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 215/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 231/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 247/353 kB | 163/327 kB | 5.2 kB
+Progress (4): 151 kB | 247/353 kB | 179/327 kB | 5.2 kB
+Progress (4): 151 kB | 264/353 kB | 179/327 kB | 5.2 kB
+Progress (4): 151 kB | 265/353 kB | 179/327 kB | 5.2 kB
+Progress (4): 151 kB | 282/353 kB | 179/327 kB | 5.2 kB
+Progress (4): 151 kB | 282/353 kB | 196/327 kB | 5.2 kB
+Progress (4): 151 kB | 298/353 kB | 196/327 kB | 5.2 kB
+Progress (4): 151 kB | 314/353 kB | 196/327 kB | 5.2 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar (151 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar
+Progress (3): 314/353 kB | 212/327 kB | 5.2 kB
+Progress (3): 314/353 kB | 228/327 kB | 5.2 kB
+Progress (3): 314/353 kB | 245/327 kB | 5.2 kB
+Progress (4): 314/353 kB | 245/327 kB | 5.2 kB | 0.9/94 kB
+Progress (4): 314/353 kB | 245/327 kB | 5.2 kB | 2.3/94 kB
+                                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.16.2/plexus-compiler-manager-2.16.2.jar (5.2 kB at 3.3 kB/s)
+Progress (3): 331/353 kB | 245/327 kB | 2.3/94 kB
+Progress (3): 347/353 kB | 245/327 kB | 2.3/94 kB
+Progress (3): 353 kB | 245/327 kB | 2.3/94 kB    
+Progress (3): 353 kB | 261/327 kB | 2.3/94 kB
+Progress (3): 353 kB | 278/327 kB | 2.3/94 kB
+Progress (3): 353 kB | 294/327 kB | 2.3/94 kB
+Progress (4): 353 kB | 294/327 kB | 2.3/94 kB | 7.7/30 kB
+Progress (4): 353 kB | 294/327 kB | 2.3/94 kB | 7.7/30 kB
+Progress (4): 353 kB | 294/327 kB | 2.3/94 kB | 24/30 kB 
+Progress (4): 353 kB | 294/327 kB | 2.3/94 kB | 30 kB   
+Progress (4): 353 kB | 294/327 kB | 3.6/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 5.0/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 6.4/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 7.7/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 9.1/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 10/94 kB | 30 kB 
+Progress (4): 353 kB | 294/327 kB | 12/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 13/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 15/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 16/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 17/94 kB | 30 kB
+Progress (4): 353 kB | 294/327 kB | 19/94 kB | 30 kB
+Progress (4): 353 kB | 310/327 kB | 19/94 kB | 30 kB
+Progress (4): 353 kB | 327/327 kB | 19/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 19/94 kB | 30 kB    
+Progress (4): 353 kB | 327 kB | 23/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 27/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 31/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 32/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 36/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 40/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 45/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 49/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 53/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 57/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 61/94 kB | 30 kB
+Progress (4): 353 kB | 327 kB | 66/94 kB | 30 kB
+                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.2.0/qdox-2.2.0.jar (353 kB at 189 kB/s)
+Progress (3): 327 kB | 70/94 kB | 30 kB
+Progress (3): 327 kB | 74/94 kB | 30 kB
+Progress (3): 327 kB | 78/94 kB | 30 kB
+Progress (3): 327 kB | 83/94 kB | 30 kB
+Progress (3): 327 kB | 87/94 kB | 30 kB
+Progress (3): 327 kB | 91/94 kB | 30 kB
+Progress (3): 327 kB | 94 kB | 30 kB   
+                                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.16.2/plexus-compiler-javac-2.16.2.jar (30 kB at 13 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar (327 kB at 139 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar (94 kB at 38 kB/s)
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 3 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ mybatisplus ---
+[INFO] skip non existing resourceDirectory D:\project\mybatisplus\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ mybatisplus ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ mybatisplus ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.6/surefire-api-3.5.6.jar
+Progress (1): 3.8/174 kB
+Progress (1): 8.0/174 kB
+Progress (1): 11/174 kB 
+Progress (1): 16/174 kB
+Progress (1): 20/174 kB
+Progress (1): 24/174 kB
+Progress (1): 28/174 kB
+Progress (1): 32/174 kB
+Progress (1): 37/174 kB
+Progress (1): 41/174 kB
+Progress (1): 45/174 kB
+Progress (1): 49/174 kB
+Progress (1): 54/174 kB
+Progress (1): 58/174 kB
+Progress (1): 62/174 kB
+Progress (1): 66/174 kB
+Progress (1): 71/174 kB
+Progress (1): 75/174 kB
+Progress (1): 79/174 kB
+Progress (1): 83/174 kB
+Progress (1): 87/174 kB
+Progress (1): 104/174 kB
+Progress (1): 120/174 kB
+Progress (1): 137/174 kB
+Progress (1): 142/174 kB
+Progress (1): 153/174 kB
+Progress (1): 169/174 kB
+Progress (1): 174 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.6/surefire-api-3.5.6.jar (174 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.6/surefire-logger-api-3.5.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.6/surefire-shared-utils-3.5.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.6/surefire-extensions-api-3.5.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.6/maven-surefire-common-3.5.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.6/surefire-booter-3.5.6.jar
+Progress (1): 3.2/123 kB
+Progress (2): 3.2/123 kB | 0/3.0 MB
+Progress (3): 3.2/123 kB | 0/3.0 MB | 7.7/317 kB
+Progress (3): 3.2/123 kB | 0/3.0 MB | 11/317 kB 
+Progress (3): 3.2/123 kB | 0/3.0 MB | 11/317 kB
+Progress (4): 3.2/123 kB | 0/3.0 MB | 11/317 kB | 7.7/14 kB
+Progress (4): 3.2/123 kB | 0/3.0 MB | 11/317 kB | 14 kB    
+Progress (4): 3.2/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 3.2/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 7.4/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 12/123 kB | 0/3.0 MB | 11/317 kB | 14 kB 
+Progress (4): 16/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 20/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 24/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+Progress (4): 29/123 kB | 0/3.0 MB | 11/317 kB | 14 kB
+                                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.6/surefire-logger-api-3.5.6.jar (14 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.6/surefire-extensions-spi-3.5.6.jar
+Progress (3): 29/123 kB | 0/3.0 MB | 28/317 kB
+Progress (3): 29/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 33/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 37/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 41/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 45/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 50/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 54/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 58/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 62/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 67/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 71/123 kB | 0/3.0 MB | 44/317 kB
+Progress (3): 71/123 kB | 0/3.0 MB | 61/317 kB
+Progress (3): 71/123 kB | 0/3.0 MB | 77/317 kB
+Progress (3): 71/123 kB | 0/3.0 MB | 93/317 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 93/317 kB | 7.7/26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 93/317 kB | 11/26 kB 
+Progress (4): 71/123 kB | 0/3.0 MB | 93/317 kB | 26 kB   
+Progress (4): 71/123 kB | 0/3.0 MB | 110/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 126/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 142/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 159/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 175/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 192/317 kB | 26 kB
+Progress (4): 71/123 kB | 0/3.0 MB | 208/317 kB | 26 kB
+Progress (4): 75/123 kB | 0/3.0 MB | 208/317 kB | 26 kB
+Progress (4): 91/123 kB | 0/3.0 MB | 208/317 kB | 26 kB
+Progress (4): 108/123 kB | 0/3.0 MB | 208/317 kB | 26 kB
+Progress (4): 123 kB | 0/3.0 MB | 208/317 kB | 26 kB    
+Progress (4): 123 kB | 0/3.0 MB | 224/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 224/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 241/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 241/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 257/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 257/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 274/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB
+Progress (4): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB
+Progress (5): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB | 7.7/8.2 kB
+Progress (5): 123 kB | 0.1/3.0 MB | 290/317 kB | 26 kB | 8.2 kB    
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.2/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+Progress (5): 123 kB | 0.3/3.0 MB | 290/317 kB | 26 kB | 8.2 kB
+                                                               
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.6/surefire-extensions-api-3.5.6.jar (26 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar
+Progress (4): 123 kB | 0.3/3.0 MB | 306/317 kB | 8.2 kB
+Progress (4): 123 kB | 0.3/3.0 MB | 317 kB | 8.2 kB    
+                                                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.6/surefire-booter-3.5.6.jar (123 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
+Progress (3): 0.3/3.0 MB | 317 kB | 8.2 kB
+Progress (3): 0.3/3.0 MB | 317 kB | 8.2 kB
+Progress (3): 0.3/3.0 MB | 317 kB | 8.2 kB
+Progress (3): 0.3/3.0 MB | 317 kB | 8.2 kB
+Progress (3): 0.3/3.0 MB | 317 kB | 8.2 kB
+Progress (3): 0.4/3.0 MB | 317 kB | 8.2 kB
+                                          
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.6/surefire-extensions-spi-3.5.6.jar (8.2 kB at 5.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar
+Progress (3): 0.4/3.0 MB | 317 kB | 7.7/149 kB
+Progress (3): 0.4/3.0 MB | 317 kB | 8.2/149 kB
+Progress (3): 0.4/3.0 MB | 317 kB | 25/149 kB 
+Progress (3): 0.4/3.0 MB | 317 kB | 41/149 kB
+Progress (3): 0.4/3.0 MB | 317 kB | 49/149 kB
+Progress (3): 0.4/3.0 MB | 317 kB | 66/149 kB
+                                             
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.6/maven-surefire-common-3.5.6.jar (317 kB at 204 kB/s)
+Progress (2): 0.4/3.0 MB | 82/149 kB
+Progress (2): 0.4/3.0 MB | 98/149 kB
+Progress (2): 0.4/3.0 MB | 115/149 kB
+Progress (2): 0.4/3.0 MB | 131/149 kB
+Progress (2): 0.4/3.0 MB | 131/149 kB
+Progress (2): 0.4/3.0 MB | 131/149 kB
+Progress (2): 0.4/3.0 MB | 131/149 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 7.7/168 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 15/168 kB 
+Progress (3): 0.4/3.0 MB | 131/149 kB | 32/168 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 48/168 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 48/168 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 48/168 kB
+Progress (3): 0.4/3.0 MB | 131/149 kB | 65/168 kB
+Progress (3): 0.4/3.0 MB | 147/149 kB | 65/168 kB
+Progress (3): 0.4/3.0 MB | 149 kB | 65/168 kB    
+Progress (3): 0.5/3.0 MB | 149 kB | 65/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 65/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 65/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 65/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 65/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 81/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 97/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 114/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 130/168 kB
+Progress (3): 0.5/3.0 MB | 149 kB | 147/168 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar (149 kB at 70 kB/s)
+Progress (2): 0.5/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 147/168 kB
+Progress (2): 0.6/3.0 MB | 163/168 kB
+Progress (2): 0.6/3.0 MB | 168 kB    
+Progress (2): 0.7/3.0 MB | 168 kB
+Progress (2): 0.7/3.0 MB | 168 kB
+Progress (2): 0.7/3.0 MB | 168 kB
+Progress (2): 0.7/3.0 MB | 168 kB
+Progress (2): 0.7/3.0 MB | 168 kB
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar (168 kB at 63 kB/s)
+Progress (1): 0.7/3.0 MB
+Progress (1): 0.7/3.0 MB
+Progress (1): 0.8/3.0 MB
+Progress (1): 0.8/3.0 MB
+Progress (1): 0.8/3.0 MB
+Progress (1): 0.8/3.0 MB
+Progress (2): 0.8/3.0 MB | 7.7/58 kB
+Progress (2): 0.8/3.0 MB | 16/58 kB 
+Progress (2): 0.8/3.0 MB | 24/58 kB
+Progress (2): 0.8/3.0 MB | 40/58 kB
+Progress (2): 0.8/3.0 MB | 57/58 kB
+Progress (2): 0.8/3.0 MB | 58 kB   
+Progress (2): 0.8/3.0 MB | 58 kB
+Progress (2): 0.8/3.0 MB | 58 kB
+Progress (2): 0.9/3.0 MB | 58 kB
+Progress (2): 0.9/3.0 MB | 58 kB
+Progress (2): 0.9/3.0 MB | 58 kB
+                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.4.0/maven-common-artifact-filters-3.4.0.jar (58 kB at 18 kB/s)
+Progress (1): 0.9/3.0 MB
+Progress (1): 0.9/3.0 MB
+Progress (1): 0.9/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.0/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.1/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.2/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.3/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.4/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.5/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.6/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.7/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.8/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 1.9/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.0/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.1/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.2/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.3/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.4/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.5/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.6/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.7/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.8/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 2.9/3.0 MB
+Progress (1): 3.0/3.0 MB
+Progress (1): 3.0/3.0 MB
+Progress (1): 3.0/3.0 MB
+Progress (1): 3.0 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.6/surefire-shared-utils-3.5.6.jar (3.0 MB at 354 kB/s)
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.pom
+Progress (1): 833 B
+Progress (1): 3.9 kB
+Progress (1): 5.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.pom (5.2 kB at 9.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.6/surefire-providers-3.5.6.pom
+Progress (1): 844 B
+Progress (1): 2.5 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.6/surefire-providers-3.5.6.pom (2.5 kB at 4.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.pom
+Progress (1): 844 B
+Progress (1): 2.8 kB
+Progress (1): 3.1 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.pom (3.1 kB at 5.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.pom
+Progress (1): 957 B
+Progress (1): 3.2 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.pom (3.2 kB at 5.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.pom
+Progress (1): 966 B
+Progress (1): 2.8 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.pom (2.8 kB at 5.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.pom
+Progress (1): 967 B
+Progress (1): 3.0 kB
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.pom (3.0 kB at 5.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.jar
+Progress (1): 7.7/35 kB
+Progress (1): 8.2/35 kB
+Progress (1): 25/35 kB 
+Progress (1): 35 kB   
+                   
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.6/surefire-junit-platform-3.5.6.jar (35 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.jar
+Progress (1): 3.1/256 kB
+Progress (2): 3.1/256 kB | 7.7/152 kB
+Progress (2): 3.1/256 kB | 11/152 kB 
+Progress (2): 20/256 kB | 11/152 kB 
+Progress (2): 28/256 kB | 11/152 kB
+Progress (3): 28/256 kB | 11/152 kB | 7.7/208 kB
+Progress (3): 28/256 kB | 11/152 kB | 11/208 kB 
+Progress (3): 28/256 kB | 11/152 kB | 28/208 kB
+Progress (4): 28/256 kB | 11/152 kB | 28/208 kB | 7.7/18 kB
+Progress (4): 28/256 kB | 11/152 kB | 28/208 kB | 16/18 kB 
+Progress (4): 28/256 kB | 11/152 kB | 28/208 kB | 18 kB   
+Progress (4): 44/256 kB | 11/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 28/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 44/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 61/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 77/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 28/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 44/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 61/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 77/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 93/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 110/208 kB | 18 kB
+Progress (4): 44/256 kB | 93/152 kB | 126/208 kB | 18 kB
+Progress (4): 44/256 kB | 110/152 kB | 126/208 kB | 18 kB
+Progress (4): 60/256 kB | 110/152 kB | 126/208 kB | 18 kB
+Progress (4): 77/256 kB | 110/152 kB | 126/208 kB | 18 kB
+Progress (4): 93/256 kB | 110/152 kB | 126/208 kB | 18 kB
+Progress (4): 93/256 kB | 126/152 kB | 126/208 kB | 18 kB
+Progress (4): 110/256 kB | 126/152 kB | 126/208 kB | 18 kB
+Progress (4): 126/256 kB | 126/152 kB | 126/208 kB | 18 kB
+Progress (4): 142/256 kB | 126/152 kB | 126/208 kB | 18 kB
+Progress (4): 142/256 kB | 126/152 kB | 142/208 kB | 18 kB
+Progress (4): 142/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 159/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 175/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 192/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 208/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 224/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 241/256 kB | 126/152 kB | 159/208 kB | 18 kB
+Progress (4): 256 kB | 126/152 kB | 159/208 kB | 18 kB    
+Progress (4): 256 kB | 126/152 kB | 175/208 kB | 18 kB
+Progress (4): 256 kB | 126/152 kB | 192/208 kB | 18 kB
+Progress (4): 256 kB | 126/152 kB | 208 kB | 18 kB    
+                                                  
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.6/common-java5-3.5.6.jar (18 kB at 18 kB/s)
+Progress (3): 256 kB | 142/152 kB | 208 kB
+Progress (3): 256 kB | 152 kB | 208 kB    
+                                      
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.2/junit-platform-engine-1.12.2.jar (256 kB at 193 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.2/junit-platform-launcher-1.12.2.jar (208 kB at 148 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.2/junit-platform-commons-1.12.2.jar (152 kB at 100 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.mybatisplus.MybatisplusApplicationTests
+13:23:27.282 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.mybatisplus.MybatisplusApplicationTests]: MybatisplusApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:23:27.368 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.mybatisplus.MybatisplusApplication for test class com.example.mybatisplus.MybatisplusApplicationTests
+13:23:27.445 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.mybatisplus.MybatisplusApplicationTests]: MybatisplusApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:23:27.446 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.mybatisplus.MybatisplusApplication for test class com.example.mybatisplus.MybatisplusApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-27T13:23:27.788+08:00  INFO 36480 --- [           main] c.e.m.MybatisplusApplicationTests        : Starting MybatisplusApplicationTests using Java 21.0.12.1 with PID 36480 (started by zhy in D:\project\mybatisplus)
+2026-09-27T13:23:27.788+08:00 DEBUG 36480 --- [           main] c.e.m.MybatisplusApplicationTests        : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-09-27T13:23:27.789+08:00  INFO 36480 --- [           main] c.e.m.MybatisplusApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2026-09-27T13:23:28.832+08:00  WARN 36480 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Get /10.248.16.197 network interface 
+Get network interface info: name:wireless_32768 (Realtek 8852BE Wireless LAN WiFi 6 PCI-E NIC)
+Initialization Sequence datacenterId:2 workerId:23
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        null 
+2026-09-27T13:23:29.002+08:00  INFO 36480 --- [           main] b.m.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.web.context.support.GenericWebApplicationContext@2650f79
+2026-09-27T13:23:29.256+08:00  INFO 36480 --- [           main] c.e.m.MybatisplusApplicationTests        : Started MybatisplusApplicationTests in 1.755 seconds (process running for 2.699)
+mvn.cmd : Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future relea
+ses of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.i
+o/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+所在位置 行:445 字符: 29
++ ...  "D:\java"; & "D:\idea\IntelliJ IDEA 2026.2.3\plugins\maven-plugin\li ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Mockito is curr...ockito.html#0.3:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: A Java agent has been loaded dynamically (C:\Users\zhy\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\b
+yte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpat
+h has been appended
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd8db31] was not registered for synchronization because synchronization is not active
+2026-09-27T13:23:30.050+08:00  INFO 36480 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd8db31]
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.070 s <<< FAILURE! -- in com.example.mybatisplus.MybatisplusApplicationTests
+[ERROR] com.example.mybatisplus.MybatisplusApplicationTests.contextLoads -- Time elapsed: 1.868 s <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mybatisplus/mapper/UserMapper.java (best guess)
+### The error may involve com.example.mybatisplus.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:101)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy84.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:209)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:186)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:99)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:156)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:93)
+	at jdk.proxy2/jdk.proxy2.$Proxy89.selectList(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy2/jdk.proxy2.$Proxy90.selectList(Unknown Source)
+	at com.example.mybatisplus.MybatisplusApplicationTests.contextLoads(MybatisplusApplicationTests.java:23)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mybatisplus/mapper/UserMapper.java (best guess)
+### The error may involve com.example.mybatisplus.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:156)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:348)
+	... 17 more
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:83)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:70)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	... 22 more
+Caused by: java.sql.SQLException: Unsupported character encoding 'utf8mb4'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:65)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:77)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:356)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	... 32 more
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: Unsupported character encoding 'utf8mb4'
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.util.StringUtils.getBytes(StringUtils.java:228)
+	at com.mysql.cj.jdbc.JdbcPropertySetImpl.postInitialization(JdbcPropertySetImpl.java:56)
+	at com.mysql.cj.conf.DefaultPropertySet.initializeProperties(DefaultPropertySet.java:223)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:349)
+	... 44 more
+Caused by: java.io.UnsupportedEncodingException: utf8mb4
+	at java.base/java.lang.String.lookupCharset(String.java:850)
+	at java.base/java.lang.String.getBytes(String.java:1784)
+	at com.mysql.cj.util.StringUtils.getBytes(StringUtils.java:226)
+	... 47 more
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   MybatisplusApplicationTests.contextLoads:23 ? MyBatisSystem 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+### The error may exist in com/example/mybatisplus/mapper/UserMapper.java (best guess)
+### The error may involve com.example.mybatisplus.mapper.UserMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.509 s
+[INFO] Finished at: 2026-09-27T13:23:31+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.6:test (default-test) on project mybatisplus: 
+[ERROR] 
+[ERROR] See D:\project\mybatisplus\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+

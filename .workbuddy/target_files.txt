@@ -1,0 +1,5 @@
+﻿D:\project\mybatisplus\target\classes\application.yml
+D:\project\mybatisplus\target\classes\com\example\mybatisplus\MybatisplusApplication.class
+D:\project\mybatisplus\target\classes\com\example\mybatisplus\mapper\UserMapper.class
+D:\project\mybatisplus\target\classes\com\example\mybatisplus\pojo\User.class
+D:\project\mybatisplus\target\test-classes\com\example\mybatisplus\MybatisplusApplicationTests.class

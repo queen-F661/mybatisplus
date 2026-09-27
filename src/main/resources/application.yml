@@ -1,34 +1,9 @@
 server:
   port: 8080  # 项目启动端口
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatisplus?useUnicode=true&characterEncoding=utf8mb4&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://localhost:3306/mybatisplus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
     password: 123456  # ⚠️改成你自己的MySQL密码
 
-# MyBatis Plus 配置
-mybatis-plus:
-  # mapper.xml 文件位置（如果有的话）
-  mapper-locations: classpath:mapper/*.xml
-  # 实体类所在包
-  type-aliases-package: com.example.mybatisplus.entity
-  configuration:
-    # 控制台打印SQL日志（开发阶段方便调试）
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-    # 数据库字段下划线 自动转 实体类驼峰命名
-    map-underscore-to-camel-case: true
-  global-config:
-    db-config:
-      # 主键自增策略
-      id-type: auto
-      # 逻辑删除配置（如果用到的话）
-      logic-delete-field: isDeleted
-      logic-not-delete-value: 0
-      logic-delete-value: 1
-
-# 日志级别
-logging:
-  level:
-    com.example.mybatisplus: debug
