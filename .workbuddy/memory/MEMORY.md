@@ -9,7 +9,9 @@
 ## 已踩过的坑（讲课时注意复提）
 1. JDBC URL characterEncoding 参数必须填 Java 字符集名（UTF-8），不能填 MySQL 的 utf8mb4。
 2. `IdType.AUTO` 依赖表列声明 AUTO_INCREMENT，建表别漏；否则报 Field 'id' doesn't have a default value。
-3. 用户惯犯坑位（见 SOUL/USER）：反条件分支、Integer 用 == 比较——review 时主动检查。
+3. MetaObjectHandler 的 strictInsertFill/strictUpdateFill 要求声明的类型与实体字段类型**完全一致**（Date vs LocalDateTime 之类不匹配会静默跳过，不报错）。
+4. 时间填充推荐两边统一用 LocalDateTime；ON UPDATE CURRENT_TIMESTAMP 别贴在 create_time 上。
+5. 用户惯犯坑位（见 SOUL/USER）：反条件分支、Integer 用 == 比较——review 时主动检查。
 
 ## 本机调试技巧（复用）
 - DB 直连验证：python venv（C:\Users\zhy\.workbuddy\binaries\python\envs\default）+ pymysql。
