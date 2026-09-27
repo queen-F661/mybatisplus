@@ -7,3 +7,7 @@ spring:
     username: root
     password: 123456  # ⚠️改成你自己的MySQL密码
 
+# 配置日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
