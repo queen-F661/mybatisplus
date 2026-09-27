@@ -1,12 +1,16 @@
 package com.example.mybatisplus;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.mybatisplus.mapper.UserMapper;
 import com.example.mybatisplus.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 @SpringBootTest
@@ -86,5 +90,56 @@ class MybatisplusApplicationTests {
 
         // 直选锁来多次尝试提交!
         userMapper.updateById(user01);
+    }
+
+    /**
+     * 查询操作 单个
+     * */
+    @Test
+    public void testSelect01(){
+        User user = userMapper.selectById(1L);
+        System.out.println(user);
+    }
+
+
+    /**
+     * 查询操作 多个
+     * 测试批量查询
+     * */
+    @Test
+    public void testSelect02(){
+        List<User> users = userMapper.selectBatchIds(Arrays.asList(1L, 2L, 3L));
+        users.forEach(System.out::println);
+    }
+
+    /**
+     * 按条件查询之一使用map操作
+     * */
+    @Test
+    public void testSelect03(){
+        // 自定义查询
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("name","狂神说java");
+
+        List<User> users = userMapper.selectByMap(map);
+        users.forEach(System.out::println);
+    }
+
+    /**
+     * 分页查询
+     * */
+    @Test
+    public void selectPage(){
+        // 参数一:当前页
+        // 参数二:页面大小
+        // 使用分页插件之后,所有的分页操作也变成简单
+        Page<User> page = new Page<>(0, 10);
+
+        userMapper.selectPage(page, null);
+
+        page.getRecords().forEach(System.out::println);
+        long total = page.getTotal();
+        System.out.println("总数=" + total);
+
     }
 }

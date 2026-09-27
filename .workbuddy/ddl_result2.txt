@@ -1,0 +1,26 @@
+﻿CREATE TABLE `user` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '涓婚敭ID',
+  `name` varchar(30) DEFAULT NULL COMMENT '濮撳悕',
+  `age` int DEFAULT NULL COMMENT '骞撮緞',
+  `email` varchar(50) DEFAULT NULL COMMENT '閭',
+  `create_time` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '鍒涘缓鏃堕棿',
+  `update_time` datetime DEFAULT NULL COMMENT '鏇存柊鏃堕棿',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2104126258068865033 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+(1, 'Jone', None, None)
+(2, 'Jack', None, None)
+(3, 'Tom', None, None)
+(4, 'Sandy', None, None)
+(5, '鍏虫敞鍏紬鍙?鐙傜璇?, None, None)
+(10, '鐙傜璇磈ava', None, None)
+(2104109670955540481, '寮犳兜浜?, None, None)
+(2104110830085042177, '鐙傜璇磈ava', None, None)
+(2104110830085042178, '鐙傜璇磈ava', None, None)
+(2104126258068865026, '鐙傜璇磈ava', None, None)
+(2104126258068865027, '鐙傜璇磈ava', None, None)
+(2104126258068865028, '鐙傜璇磈ava', None, None)
+(2104126258068865029, '鐙傜璇磈ava', None, None)
+(2104126258068865030, '鐙傜璇磈ava', datetime.datetime(2026, 9, 27, 19, 28, 20), datetime.datetime(2026, 9, 27, 19, 28, 20))
+(2104126258068865031, '鐙傜璇磈ava', None, None)
+(2104126258068865032, '鐙傜璇磈ava', None, None)
