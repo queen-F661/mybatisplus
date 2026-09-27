@@ -1,0 +1,12 @@
+﻿CREATE TABLE `user` (
+  `id` bigint NOT NULL COMMENT '涓婚敭ID',
+  `name` varchar(30) DEFAULT NULL COMMENT '濮撳悕',
+  `age` int DEFAULT NULL COMMENT '骞撮緞',
+  `email` varchar(50) DEFAULT NULL COMMENT '閭',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+('id', 'bigint', 'NO', 'PRI', '')
+('name', 'varchar(30)', 'YES', '', '')
+('age', 'int', 'YES', '', '')
+('email', 'varchar(50)', 'YES', '', '')
