@@ -97,7 +97,7 @@ class MybatisplusApplicationTests {
      * */
     @Test
     public void testSelect01(){
-        User user = userMapper.selectById(1L);
+        User user = userMapper.selectById(5L);
         System.out.println(user);
     }
 
@@ -141,5 +141,26 @@ class MybatisplusApplicationTests {
         long total = page.getTotal();
         System.out.println("总数=" + total);
 
+    }
+
+    // 根据id来进行删除
+    @Test
+    public void testDeleteById(){
+        userMapper.deleteById(2104109670955540481L);
+    }
+
+    // 根据id进行批量删除
+    @Test
+    public void testDeleteBatchId(){
+        userMapper.deleteByIds(Arrays.asList(2104126258068865033L,2104126258068865030L));
+    }
+
+    // 通过条件查询
+    @Test
+    public void testDeleteMap(){
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("name","关注公众号:狂神说");
+
+        userMapper.deleteByMap(map);
     }
 }

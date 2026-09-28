@@ -29,6 +29,9 @@ public class User {
     @Version
     private int version;
 
+    // 逻辑删除字段
+    private int deleted;
+
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;
 
